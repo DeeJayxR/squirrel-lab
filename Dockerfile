@@ -1,4 +1,5 @@
 FROM alpine:latest
 
 RUN apk add bash
-ADD dummy.txt .USER
+ADD dummy.txt .
+USER DeeJayxR
